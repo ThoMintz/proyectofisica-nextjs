@@ -3,25 +3,25 @@ import PaginaGraficos from "@/components/presentationPage";
 export default function Page() {
     const graficos = [
         {
-            imagen: "/components/images/beerpong1.jpg",
-            titulo: "Beer Pong - Un análisis del pique de la pelota",
-            descripcion: "Explora las leyes fundamentales del movimiento y la fuerza.",
+            imagen: "/images/velocidadY-CL.png",
+            titulo: "Velocidad en la componente Y en Caída Libre con rebotes",
+            descripcion: "",
         },
         {
-            imagen: "/components/images/beerpong2.jpg",
-            titulo: "Integrantes",
-            descripcion: "Los integrantes de este proyecto son Marcos Costantino, Agustin Galie, Catalina Dumrauf y Thomas Mintzer.",
+            imagen: "/images/velocidadY-TR.png",
+            titulo: "Velocidad en la componente Y en Tiro Lateral",
+            descripcion: "",
         },
     ];
 
     const secciones = [
         {
-            titulo: "Explicación del Gráfico",
-            texto: "Este gráfico muestra la relación entre diferentes variables físicas. Observa cómo cambian los valores a lo largo del tiempo o en relación con otras variables.",
+            titulo: "Explicación del Gráfico CL",
+            texto: "Este gráfico muestra la relación entre la velocidad en el eje Y y el tiempo. Podemos ver que es la velocidad es descripta por una función lineal donde la velocidad va decreciendo a medida que la pelota va cayendo. En el momento del rebote esta velocidad se dispara en sentido positivo. A cada rebote va perdiendo velocidad debido a la pérdida de energía mecánica.",
         },
         {
-            titulo: "Aplicaciones Prácticas",
-            texto: "Entender estos gráficos es crucial para resolver problemas en física y comprender fenómenos del mundo real. Piensa en cómo podrías aplicar este conocimiento en situaciones cotidianas.",
+            titulo: "Explicación del Gráfico TR",
+            texto: "Este gráfico muestra la relación entre la velocidad en el eje Y y el tiempo. Se comporta de igual forma que CL con la diferencia de que hay un único rebote.",
         },
     ];
 

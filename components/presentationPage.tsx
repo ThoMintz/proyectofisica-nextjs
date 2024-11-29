@@ -85,10 +85,10 @@ export default function PaginaGraficos({titulo, graficos, secciones}: PaginaGraf
                     </button>
                 </div>
 
-                <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="mt-8 flex flex-row items-center gap-6">
                     {secciones.map((seccion, index) => (
                         <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                            <h2 className="text-xl font-semibold mb-4">{seccion.titulo}</h2>
+                            <h2 className="text-xl font-semibold mb-4 text-black">{seccion.titulo}</h2>
                             <p className="text-gray-600">{seccion.texto}</p>
                         </div>
                     ))}

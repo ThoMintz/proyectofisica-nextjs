@@ -3,25 +3,25 @@ import PaginaGraficos from "@/components/presentationPage";
 export default function Page() {
     const graficos = [
         {
-            imagen: "/components/images/beerpong1.jpg",
-            titulo: "Beer Pong - Un análisis del pique de la pelota",
-            descripcion: "Explora las leyes fundamentales del movimiento y la fuerza.",
+            imagen: "/images/aceleracionY-CL.png",
+            titulo: "Aceleración en la componente Y en Caída Libre con rebotes",
+            descripcion: "",
         },
         {
-            imagen: "/components/images/beerpong2.jpg",
-            titulo: "Integrantes",
-            descripcion: "Los integrantes de este proyecto son Marcos Costantino, Agustin Galie, Catalina Dumrauf y Thomas Mintzer.",
+            imagen: "/images/aceleracionY-TR.png",
+            titulo: "Aceleración en la componente Y en Tiro Lateral",
+            descripcion: "",
         },
     ];
 
     const secciones = [
         {
-            titulo: "Explicación del Gráfico",
-            texto: "Este gráfico muestra la relación entre diferentes variables físicas. Observa cómo cambian los valores a lo largo del tiempo o en relación con otras variables.",
+            titulo: "Explicación del Gráfico CL",
+            texto: "Este gráfico muestra la relación entre la aceleración en el eje Y y el tiempo. Previo a cada rebote la aceleración ronda los -1000cm/s2 debido a que describre los tramos donde la pelota esta cayendo, por lo que este valor corresponde al de la gravedad. En los momentos dobde rebota la aceleración se dispara",
         },
         {
-            titulo: "Aplicaciones Prácticas",
-            texto: "Entender estos gráficos es crucial para resolver problemas en física y comprender fenómenos del mundo real. Piensa en cómo podrías aplicar este conocimiento en situaciones cotidianas.",
+            titulo: "Explicación del Gráfico TR",
+            texto: "Este gráfico muestra la relación entre la aceleración en el eje Y y el tiempo. Se comporta de igual forma que CL con la diferencia de que hay un único rebote",
         },
     ];
 

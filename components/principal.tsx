@@ -10,15 +10,15 @@ const temasCarrusel = [
         imagen: "/images/beerpong1.jpg",
         titulo: "Beer Pong - Un análisis del pique de la pelota",
         descripcion: "Explora las leyes fundamentales del movimiento y la fuerza.",
-        cta: "Aprender más",
-        enlace: "/mecanica"
+        cta: "Explorar",
+        enlace: "/posicion"
     },
     {
         imagen: "/images/beerpong2.jpg",
         titulo: "Integrantes",
         descripcion: "Los integrantes de este proyecto son Marcos Costantino, Agustin Galie, Catalina Dumrauf y Thomas Mintzer",
         cta: "Explorar",
-        enlace: "/termodinamica"
+        enlace: "/velocidad"
     },
 ]
 
@@ -92,7 +92,9 @@ export default function PaginaFisica() {
                         <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
                             <Lightbulb className="h-12 w-12 text-yellow-500 mb-4" />
                             <h2 className="text-xl font-semibold mb-2 text-black">Motivación detrás del estudio</h2>
-                            <p className="text-gray-600 text-center mb-4">Practica con problemas desafiantes y aprende estrategias de resolución.</p>
+                            <p className="text-gray-600 text-center mb-4">El objetivo principal de nuestro proyecto es desarrollar una página web interactiva que permita a los usuarios visualizar y analizar gráficas generadas a partir de simulaciones de diferentes lanzamientos.
+
+                                A lo largo de esta página mostraremos resultados preliminares que  constituyen la base sobre la cual seguiremos desarrollando nuestro proyecto en el  futuro.</p>
 
                         </div>
                     </div>
